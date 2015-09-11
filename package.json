@@ -2,6 +2,11 @@
   "devDependencies": {
     "babelify": "^6.3.0",
     "browserify": "^11.1.0",
-    "browserify-incremental": "^3.0.1"
+    "browserify-incremental": "^3.0.1",
+    "chai": "^3.2.0",
+    "mochify": "^2.13.0"
+  },
+  "scripts": {
+    "js-tests": "node_modules/.bin/mochify --transform babelify --extension '.js.es6' --recursive"
   }
 }
