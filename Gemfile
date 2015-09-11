@@ -16,3 +16,5 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
+
+gem 'browserify-rails', '1.4.0'
