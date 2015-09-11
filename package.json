@@ -10,5 +10,8 @@
   },
   "scripts": {
     "js-tests": "node_modules/.bin/mochify --transform [babelify --stage 0] --extension '.js.es6' --recursive"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
   }
 }
